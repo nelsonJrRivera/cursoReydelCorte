@@ -1,0 +1,5 @@
+<div class="course-card">
+    <img src="<?php echo htmlspecialchars($course['image']); ?>" 
+         alt="<?php echo htmlspecialchars($course['title']); ?>" 
+         class="course-image">
+</div>
