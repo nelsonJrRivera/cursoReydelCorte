@@ -11,10 +11,18 @@ require_once 'includes/header.php';
     <br><a href="#courses" class="cta-button">Conoce todos mis cursos</a><br>
 </section>
 <body>
-<sction id="description" class="description">
-    
-    <br><h2>¿Quiénes somos?</h2>
-</sction>
+<section id="description" class="description">
+    <br>
+    <h2>¿Quiénes somos?</h2>
+    <div class="description-content">
+        <img src="assets/images/about-us.jpg" alt="Sobre nuestra barbería" class="description-image">
+        <p class="description-text">
+            Somos una academia líder en formación de barberos profesionales, con más de X años de experiencia en el sector. En el Rey del Corte, no solo enseñamos técnicas de corte y estilismo, sino que formamos verdaderos artistas del cabello y la barba.
+            
+            Nuestro equipo de instructores expertos te guiará paso a paso en tu journey para convertirte en un barbero profesional. Combinamos técnicas tradicionales con las últimas tendencias del mercado, asegurando una formación completa y actualizada.
+        </p>
+    </div>
+</section>
 
 <section id="courses" class="courses">
     <div class="courses-grid">
