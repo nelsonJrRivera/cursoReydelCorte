@@ -20,7 +20,7 @@ require_once 'includes/header.php';
         $courses = [
             [
                 'title' => 'Growth Course',
-                'image' => '/assets/images/growth-course.jpg',
+                'image' => '/assets/images/foto1.jpg',
                 'button'=>'components/hotmart-button.php',
             ],
             [
