@@ -5,13 +5,16 @@ require_once 'includes/header.php';
 
 <section class="hero">
 <img src="assets/images/logo.jpg" alt="">
-    <h1>Curso de barberos del Rey del Corte.</h1>
-    <h2>Bienvenidos a nuestro reino de barberos</h2>
-    <a href="#courses" class="cta-button">Conoce todos mis cursos</a>
+    <h1>Curso de barbería del Rey del Corte</h1>
+    <h2>Conviértete en uno de nosotros</h2>
+    <a href="#description" class="cta-button">¿Quiénes somos?</a>
+    <br><a href="#courses" class="cta-button">Conoce todos mis cursos</a><br>
 </section>
-<body class="fondo">
+<body>
+<sction id="description" class="description">
     
-</body>
+    <br><h2>¿Quiénes somos?</h2>
+</sction>
 
 <section id="courses" class="courses">
     <div class="courses-grid">
@@ -20,17 +23,17 @@ require_once 'includes/header.php';
         $courses = [
             [
                 'title' => 'Growth Course',
-                'image' => '/assets/images/foto1.jpg',
+                'image' => 'assets/images/foto1.jpeg',
                 'button'=>'components/hotmart-button.php',
             ],
             [
                 'title' => 'Premium Course',
-                'image' => '/assets/images/premium-course.jpg',
+                'image' => 'assets/images/foto2.jpeg',
                 'button'=>'components/hotmart-button.php'
             ],
             [
                 'title' => 'Cutting Course',
-                'image' => '/assets/images/cutting-course.jpg',
+                'image' => 'assets/images/foto3.jpeg',
                 'button'=>'components/hotmart-button.php'
             ]
         ];
@@ -50,3 +53,4 @@ require_once 'includes/header.php';
    target="_blank">
     Resuelve tus dudas
 </a>
+</body>
