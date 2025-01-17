@@ -39,10 +39,13 @@ include_once 'hotmart-button.php'; // Asegúrate de que la ruta sea correcta
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
+    overflow: hidden; /* Cambié auto por hidden para evitar el desbordamiento */
+    box-shadow: 2px 40px 150px rgba(0, 0, 0, 0.15); /* Sombra con color visible y opacidad */
 }
 
 .course-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0); /* Sombra más intensa al pasar el mouse */
 }
 
 .course-image {
